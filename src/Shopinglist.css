@@ -1,0 +1,79 @@
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: crimson;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.header input {
+  width: 40%;
+  height: 30px;
+  border-color: crimson;
+  border-radius: 10px;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.counter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.counter button {
+  margin: 0 10px;
+  background-color: crimson;
+  border: none;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+select {
+  width: 20%;
+  height: 30px;
+  border-color: crimson;
+  border-radius: 10px;
+}
+button {
+  margin: 0 10px;
+  background-color: crimson;
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+  color: white;
+}
+.contain-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.items {
+  width: 80%;
+  height: 100%;
+  background-color: rgb(219, 217, 217);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.items_div{
+  width: 800px ;
+  display: flex;
+  justify-content: center;
+align-items: center;
+}
